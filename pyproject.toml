@@ -1,0 +1,12 @@
+[project]
+name = "theodosia-rehearsal"
+version = "0.1.0"
+description = "Ten Theodosia examples wired as an .mcp.json drop-in for Claude Code."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "theodosia[observability]>=0.4.0",
+    "pydantic>=2",
+]
+
+[tool.uv]
+package = false

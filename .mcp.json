@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "rehearsal-coffee": {
+      "command": "uv",
+      "args": ["run", "python", "examples/01_coffee.py"]
+    },
+    "rehearsal-streaming": {
+      "command": "uv",
+      "args": ["run", "python", "examples/02_streaming.py"]
+    },
+    "rehearsal-forking": {
+      "command": "uv",
+      "args": ["run", "python", "examples/03_forking.py"]
+    },
+    "rehearsal-typed-state": {
+      "command": "uv",
+      "args": ["run", "python", "examples/04_typed_state.py"]
+    },
+    "rehearsal-multi-graph": {
+      "command": "uv",
+      "args": ["run", "python", "examples/05_multi_graph.py"]
+    },
+    "rehearsal-shell": {
+      "command": "uv",
+      "args": ["run", "python", "examples/06_local_shell.py"]
+    },
+    "rehearsal-git": {
+      "command": "uv",
+      "args": ["run", "python", "examples/07_git_review.py"]
+    },
+    "rehearsal-otel": {
+      "command": "uv",
+      "args": ["run", "python", "examples/08_otel.py"]
+    },
+    "rehearsal-research": {
+      "command": "uv",
+      "args": ["run", "python", "examples/09_parallel_research.py"]
+    },
+    "rehearsal-incident": {
+      "command": "uv",
+      "args": ["run", "python", "examples/10_incident.py"]
+    }
+  }
+}

@@ -4,41 +4,61 @@
       "command": "uv",
       "args": ["run", "python", "examples/01_coffee.py"]
     },
-    "rehearsal-streaming": {
-      "command": "uv",
-      "args": ["run", "python", "examples/02_streaming.py"]
-    },
-    "rehearsal-forking": {
-      "command": "uv",
-      "args": ["run", "python", "examples/03_forking.py"]
-    },
-    "rehearsal-typed-state": {
-      "command": "uv",
-      "args": ["run", "python", "examples/04_typed_state.py"]
-    },
-    "rehearsal-multi-graph": {
-      "command": "uv",
-      "args": ["run", "python", "examples/05_multi_graph.py"]
-    },
-    "rehearsal-shell": {
-      "command": "uv",
-      "args": ["run", "python", "examples/06_local_shell.py"]
-    },
-    "rehearsal-git": {
-      "command": "uv",
-      "args": ["run", "python", "examples/07_git_review.py"]
-    },
-    "rehearsal-otel": {
-      "command": "uv",
-      "args": ["run", "python", "examples/08_otel.py"]
-    },
-    "rehearsal-research": {
-      "command": "uv",
-      "args": ["run", "python", "examples/09_parallel_research.py"]
-    },
     "rehearsal-incident": {
       "command": "uv",
-      "args": ["run", "python", "examples/10_incident.py"]
+      "args": ["run", "python", "examples/02_incident.py"]
+    },
+    "rehearsal-git-review": {
+      "command": "uv",
+      "args": ["run", "python", "examples/03_git_review.py"]
+    },
+    "rehearsal-security-audit": {
+      "command": "uv",
+      "args": ["run", "python", "examples/04_security_audit.py"]
+    },
+    "rehearsal-unix-health": {
+      "command": "uv",
+      "args": ["run", "python", "examples/05_unix_health.py"]
+    },
+    "rehearsal-proposal": {
+      "command": "uv",
+      "args": ["run", "python", "examples/06_proposal.py"]
+    },
+    "rehearsal-adventure": {
+      "command": "uv",
+      "args": ["run", "python", "examples/07_adventure.py"]
+    },
+    "rehearsal-eliza": {
+      "command": "uv",
+      "args": ["run", "python", "examples/08_eliza.py"]
+    },
+    "rehearsal-hammurabi": {
+      "command": "uv",
+      "args": ["run", "python", "examples/09_hammurabi.py"]
+    },
+    "rehearsal-hanoi": {
+      "command": "uv",
+      "args": ["run", "python", "examples/10_hanoi.py"]
+    },
+    "rehearsal-wumpus": {
+      "command": "uv",
+      "args": ["run", "python", "examples/11_wumpus.py"]
+    },
+    "rehearsal-quadrant-combat": {
+      "command": "uv",
+      "args": ["run", "python", "examples/12_quadrant_combat.py"]
+    },
+    "rehearsal-lunar-lander": {
+      "command": "uv",
+      "args": ["run", "python", "examples/13_lunar_lander.py"]
+    },
+    "rehearsal-bulls-and-cows": {
+      "command": "uv",
+      "args": ["run", "python", "examples/14_bulls_and_cows.py"]
+    },
+    "rehearsal-animal": {
+      "command": "uv",
+      "args": ["run", "python", "examples/15_animal.py"]
     }
   }
 }

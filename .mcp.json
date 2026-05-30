@@ -52,13 +52,13 @@
       "command": "uv",
       "args": ["run", "python", "examples/13_lunar_lander.py"]
     },
-    "rehearsal-bulls-and-cows": {
+    "rehearsal-document-pipeline": {
       "command": "uv",
-      "args": ["run", "python", "examples/14_bulls_and_cows.py"]
+      "args": ["run", "python", "examples/14_document_pipeline.py"]
     },
-    "rehearsal-animal": {
+    "rehearsal-code-audit": {
       "command": "uv",
-      "args": ["run", "python", "examples/15_animal.py"]
+      "args": ["run", "python", "examples/15_code_audit.py"]
     }
   }
 }

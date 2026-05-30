@@ -18,8 +18,15 @@ docstrings cite the historical authors for attribution and context only.
 | `11_wumpus.py` | Gregory Yob, *Hunt the Wumpus*, *Creative Computing*, September-October 1973. |
 | `12_quadrant_combat.py` | Inspired by Mike Mayfield's 1971 high-school BASIC space-combat game and the resource-bounded sector-combat tradition collected in Ahl, *BASIC Computer Games* (1973). Names and trademarks of any commercial entertainment franchise that game later became associated with are NOT used in this repository; this is a from-scratch implementation. |
 | `13_lunar_lander.py` | Jim Storer, *Lunar*, Lexington High School Math Club (1969), FOCAL on a PDP-8. Published in Ahl (1973). |
-| `14_bulls_and_cows.py` | Centuries-old pencil-and-paper guessing game (no known origin date). The mechanic predates any twentieth-century commercialization; only the public-domain name "Bulls and Cows" is used here. |
-| `15_animal.py` | Arthur Luehrmann, *Animal*, c. 1973. The decision-tree-as-FSM pattern is mathematical and used freely. |
+
+## Upstream MCP servers used
+
+These demos spawn third-party MCP servers as child processes via `mount(upstream=...)`. The upstream servers' tools are called from action bodies and never exposed to the connected agent. Each upstream server ships under its own license; this repository does not bundle their source.
+
+| Example | Upstream server | License |
+|---|---|---|
+| `14_document_pipeline.py` | [docling-mcp](https://github.com/docling-project/docling-mcp), launched via `uvx --from docling-mcp docling-mcp-server` | MIT |
+| `15_code_audit.py` | [@modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem), launched via `npx -y @modelcontextprotocol/server-filesystem <target>` | MIT |
 
 ## Theodosia examples lifted from upstream
 
